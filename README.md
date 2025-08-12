@@ -1,7 +1,7 @@
 # LAB-5
 tanggal 12 agustus 2025 
 # Mengkoneksikan mikrotik ke internet  
-A. konfigurasi mikrotik ke internet dengan IP dynamic
+**A. konfigurasi mikrotik ke internet dengan IP dynamic**
   
 ![y](TOPOLOGIdym.PNG)
 
@@ -55,18 +55,20 @@ A. konfigurasi mikrotik ke internet dengan IP dynamic
 
 ![Y](LAB7.PNG)
 
-   7. yang terakhir konfigursi DNS:  
-      IP>DNS   
-      masukan server=8.8.8.8 (ip google)  
-      klik Applay lalu OK.
+     7. yang terakhir konfigursi DNS:  
+        IP>DNS   
+        masukan server=8.8.8.8 (ip google)  
+        klik Applay lalu OK.
 
 ![Y](labdns.PNG)
 
-  8.Jika sudah, setting IP di windows Control Panel,  
-    ubah jadi DHCP/Obtain Auto.  
-    Sekarang Client bisa terhubung ke internet
+    8.Jika sudah, setting IP di windows Control Panel,  
+      ubah jadi DHCP/Obtain Auto.  
+      Sekarang Client bisa terhubung ke internet
 
-B. konfigurasi mikrotik ke internet dengan IP dynamic
+**B. konfigurasi mikrotik ke internet dengan IP dynamic**
+
+![Y](TOPOLOGIttci.PNG)
 
 1.Langkah-langkahnya nya sama seperti tahap sebelumnya, cuman yang ini tidak membutuhkan DHCP Server  
 2.Jika sudah, di setting IP windows di Control Panel, masukan IP secara manual, 
