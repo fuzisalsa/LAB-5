@@ -28,6 +28,8 @@ tanggal 12 agustus 2025
 
 ![Y](LAB3.PNG)
 
+jika kalian ingin laptop/pc kalian terkoneksi ke internet maka lanjutkan dengan cara :
+
       4.Melakukan seting IP pada interface ether2-LAN::  
         IP>AddreS  
         klik +   
@@ -66,21 +68,26 @@ tanggal 12 agustus 2025
       ubah jadi DHCP/Obtain Auto.  
       Sekarang Client bisa terhubung ke internet
 
-**B. konfigurasi mikrotik ke internet dengan IP dynamic**
+**B. konfigurasi mikrotik ke internet dengan IP tatic**
 
 ![Y](TOPOLOGIttci.PNG)
 
-1.Langkah-langkahnya nya sama seperti tahap sebelumnya, cuman yang ini tidak membutuhkan DHCP Server  
-2.Jika sudah, di setting IP windows di Control Panel, masukan IP secara manual, 
-  masukan IP yang masih 1 network IP 192.168.10.2 karna IP gatewaynya 192.168.10.1  
-  SubMask 255.255.255.0 karna /24 dan DNS nya isi 8.8.8.8
-3.Sekarang Client bisa terhubung ke Internet
+1. masuk ke IP>address  
+2. klik +  
+3. masukan address yang satu network dengan isp  
+   *jika tida tau ip isp bisa di cek di ip dhcp client  
+4. pilih ether1/isp  
+5. buka IP>DNS masukan dns google 8.8.8.8   
+6. klik apply lalu ok  
+7. buka IP>routes  
+8. masukan gateway  
+9. pengujian nya di terminal dengan cara ping google.com  
+10.Sekarang Client bisa terhubung ke Internet  
 
 # Kesimpulan
-Dynamic routing yaitu konfigurasi yang clientnya mendapat IP secara otomatis.  
-Sedangkan Static Routing adalah konfigurasi yang harus di seting satu-satu termasuk clinetnya.
-Maka dari itu dynamic routing cocok untuk jaringan berskala besar karna tidak perlu setting IP satu-satu.  
-Sedangkan Static Routing tidak cocok untuk jaringan berskala besar.
+ip Dynamic yaitu konfigurasi yang clientnya mendapat IP secara otomatis.  
+Sedangkan ip Static adalah konfigurasi yang harus di seting satu-satu termasuk clinetnya.
+
 
 
 
